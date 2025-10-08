@@ -1,0 +1,6 @@
+dvc[all]
+dvclive
+scikit-learn
+pandas
+numpy
+python-dotenv
