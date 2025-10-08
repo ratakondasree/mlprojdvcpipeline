@@ -12,3 +12,4 @@ train:
 paths:
   model_dir: models
   metrics_dir: metrics
+  train_metrics_dir: train_metrics

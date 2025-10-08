@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, classification_report
 params = yaml.safe_load(open("params.yaml"))
 proc_dir = pathlib.Path(params["data"]["processed_dir"])
 model_dir = pathlib.Path(params["paths"]["model_dir"])
-metrics_dir = pathlib.Path(params["paths"]["metrics_dir"])
+metrics_dir = pathlib.Path(params["paths"]["train_metrics_dir"])
 metrics_dir.mkdir(parents=True, exist_ok=True)
 
 test = pd.read_csv(proc_dir / "test.csv")
